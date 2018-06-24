@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jni" />
+        <module name="study" />
         <module name="util" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="temp" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
